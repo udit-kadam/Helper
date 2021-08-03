@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context=".AboutApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="1.GIVE PREMISSIONS"
+                android:textColor="#ffffff"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Helper App need some system permissions to access your phone.Click one by one on Buttons in Permission tab and givwe permission to Helper app."
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/permii" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="2.SET PASSWORD"
+                android:textColor="#ffffff"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Click on SET PASSWORD Button on home. After that enter your password and just click on SET Button your password will be saved.                                "
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/seet" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="3.CHANGE PASSWORD"
+                android:textColor="#ffffff"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:text="If you want to change your password just click on CHANGE PASSWORD Button on home ,then type new password and click on CHANGE Button" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/cngpass" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:text="4.HOW TO USE?" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="To use this app perform action 1,2 and 3 and send SMS to android phone that you want to control with password and action."
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                app:srcCompat="@drawable/demo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

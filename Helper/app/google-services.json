@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "236772119032",
+    "firebase_url": "https://helper-f7b12.firebaseio.com",
+    "project_id": "helper-f7b12",
+    "storage_bucket": "helper-f7b12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236772119032:android:ce73ddbbd907130a",
+        "android_client_info": {
+          "package_name": "com.example.bhargav.helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236772119032-6tn3431gkjdvu7qc8l18ujfj9b7j1lt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_KdWev66gQNZz6exqnd7y_9o2-5-b33w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
