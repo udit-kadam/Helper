@@ -1,5 +1,5 @@
 # Helper
-Remote Controlling Android Phone Using SMS
+# Remote Controlling Android Phone Using SMS
 
 A mobile phone to send and receive text message, with wide coverage area, high
 reliability, high popularity, easy development, low expenditure and other characteristics using
@@ -37,7 +37,7 @@ help of Android Mobile application through SMS. It helps when he/she forgets his
 phone somewhere and requires the data present in cell phone. 
 
 
-The command list contains following forms: -
+*The command list contains following forms: -
 
     1. SILENT
     2. VIBRATE
