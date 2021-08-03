@@ -37,7 +37,7 @@ help of Android Mobile application through SMS. It helps when he/she forgets his
 phone somewhere and requires the data present in cell phone. 
 
 
-*The command list contains following forms: -
+* The command list contains following forms: -
 
     1. SILENT
     2. VIBRATE
